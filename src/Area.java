@@ -21,6 +21,7 @@ public class Area {
 		
 		int totalArea = x * y;
 		
+		System.out.println("Total Area Equals:");
 		System.out.println(totalArea);
 	}
 
