@@ -1,9 +1,9 @@
 ## JAVA Data Types
 ------------------
 
-- String
+- #### String
  	* "Mostafa", "Egypt", "me@nawara.me"
-- Int
+- #### Int
  	* "1", "500", "-65", "125"
-- Float
+- #### Float
 	* "1.5", "-99.8", "0.2", "5.0"
