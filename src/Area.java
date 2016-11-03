@@ -13,11 +13,15 @@ public class Area {
 		
 		Scanner input = new Scanner(System.in);
 		
-		input.nextLine();
+		String x = input.nextLine();
 
 		System.out.println("Enter the width:");
 
-		input.nextLine();
+		String y = input.nextLine();
+		
+		System.out.println(x);
+
+		System.out.println(y);
 
 	}
 
