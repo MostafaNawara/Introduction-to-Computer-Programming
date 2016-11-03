@@ -7,22 +7,21 @@ public class Area {
 	 */
 	public static void main(String[] args) {
 		
-		System.out.println("Welcome To Get Area Calc");
+		System.out.println("Welcome To Get Area Calculator");
 
 		System.out.println("Enter the height:");
 		
 		Scanner input = new Scanner(System.in);
 		
-		String x = input.nextLine();
+		int x = input.nextInt();
 
 		System.out.println("Enter the width:");
 
-		String y = input.nextLine();
+		int y = input.nextInt();
 		
-		System.out.println(x);
-
-		System.out.println(y);
-
+		int totalArea = x * y;
+		
+		System.out.println(totalArea);
 	}
 
 }
