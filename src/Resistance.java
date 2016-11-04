@@ -14,13 +14,17 @@ public class Resistance {
 		Scanner input = new Scanner(System.in);
 		
 		// Get 'R1' & 'R2' values
-		int r1 = input.nextInt();
-		int r2 = input.nextInt();
+		double r1 = input.nextInt();
+		double r2 = input.nextInt();
+		
+		double fix = 1;
 
 		// Get the equivalent resistance
-		float resistanceSeries = r1 + r2;
-		float resistanceParallel = (1/r1) + (1/r2);
+		double resistanceSeries = r1 + r2;
+		double resistanceParallel = (fix/r1) + (fix/r2);
 		
+		
+	
 		
 		// Print the result 
 		System.out.println("The Resistance Series: " + resistanceSeries);
