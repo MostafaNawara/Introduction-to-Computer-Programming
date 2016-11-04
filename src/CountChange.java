@@ -27,15 +27,18 @@ public class CountChange {
 		System.out.println("Enter the number of cents");		
 		int centsNum = input.nextInt();
 		
-		// Convert numbers to dollars
-		float quartersInDollars = quartersNum / 4;
-		float dimesInDollars = dimesNum / 10;
-		float nickelInDollars = nickelNum / 20;
-		float centsInDollars = centsNum / 100;
+		// Convert numbers to cents
+		int quartersInCents = quartersNum * 25;
+		int dimesInCents = dimesNum * 10;
+		int nickelInCents = nickelNum * 5;
+		int centsInCents = centsNum * 1;
 
+
+		// Get the total cents
+		float totalCents = quartersInCents + dimesInCents + nickelInCents + centsInCents;
 
 		// Get the total dollars & print it 
-		float total = quartersInDollars + dimesInDollars + nickelInDollars + centsInDollars;
+		float total = totalCents / 100;
 		System.out.print("The total : " + total + "$");		
 
 	}
