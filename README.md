@@ -19,3 +19,5 @@
 	- Like the **int** but it's size is 64bit, when the int is only 32bit
 - #### Double
 	- Like the **Float** but it's size is 64bit, when the Float is only 32bit
+- #### Boolean
+	- It's value is true or false 
