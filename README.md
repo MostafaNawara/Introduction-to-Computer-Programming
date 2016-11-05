@@ -21,3 +21,8 @@
 	- Like the **Float** but it's size is 64bit, when the Float is only 32bit
 - #### Boolean
 	- It's value is true or false 
+- #### Character
+	- It's value is one litter 
+	- j, ?, # or any other 
+	- Size 16 bit
+	- Use single quotas **(' ')**, But String use double quotas **(" ")**.
