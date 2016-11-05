@@ -17,25 +17,19 @@ public class Attendance {
 		
 		switch (day) {
 		case 1:
-			System.out.println("The work from 7 to 3");
+		case 3:
+		case 4:
+			System.out.println("The work from 7 to 3"); // Long Day
 			break;
 		case 2:
-			System.out.println("The work from 7 to 5");
-			break;
-		case 3:
-			System.out.println("The work from 7 to 3");
-			break;
-		case 4:
-			System.out.println("The work from 7 to 3");
-			break;
 		case 5:
-			System.out.println("The work from 7 to 5");
+			System.out.println("The work from 7 to 5"); // Normal Day
 			break;
 		case 6:
-			System.out.println("The work from 7 to 2");
+			System.out.println("The work from 7 to 2"); // Short Day
 			break;
 		case 7:
-			System.out.println("No work to day");
+			System.out.println("No work to day"); // Off
 			break;
 		default:
 			System.out.println("Error Day number not found. Enter number bettwen 1 and 7");
