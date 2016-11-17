@@ -1,0 +1,37 @@
+## JAVA Data Types
+------------------
+
+- #### String
+ 	- Mostafa
+	- Egypt
+	- me@nawara.me
+- #### int
+ 	- 1
+	- 500
+	- -65
+	- 125
+- #### Float
+	- 1.5
+	- -99.8
+	- 0.2
+	- 5.0
+- #### Long
+	- Like the **int** but it's size is 64bit, when the int is only 32bit
+- #### Double
+	- Like the **Float** but it's size is 64bit, when the Float is only 32bit
+- #### Boolean
+	- It's value is true or false 
+- #### Character
+	- It's value is one litter 
+	- j, ?, # or any other 
+	- Size 16 bit
+	- Use single quotas **(' ')**, But String use double quotas **(" ")**.
+- #### Array
+	- Add it with `int [] x = {5, 10, -15, 125, 12}` or `int [] x = new int [5]` ** the number of the array elmets**
+	- All array elements must be one type.
+	- We can use any type of data in the array
+	- The array index start from `0`.
+- #### Multi Dimension Arrays
+	- Like the array but it's elements are arrays
+	- Add it with `int [][] x = {{{5, 10, -15, 125, 12}}, {{5, 10, -15, 125, 12}}, {{5, 10, -15, 125, 12}}}` or `int [] x = new int [3][5]` ** the number of the array elmets and every array lenth**
+	- We can add arrays with diff array lenth `int [][] x = {{{5, 1}}, {{13, 125, 12}}, {{5, 10, -15, 125, 12}}}`
