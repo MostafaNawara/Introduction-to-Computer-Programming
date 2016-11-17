@@ -53,6 +53,9 @@ public class ArrayUnionValue {
 				
 			}
 		}
+		
+		System.out.println(UnionArray);
+		System.out.println(IntersectionArray);
 
 /*
 		Write Java program that given two arrays of integers, prints the union array and the intersection array.
