@@ -30,14 +30,21 @@ public class RepeatedNumbers {
 		for (int i = 0; i < size; i++) {
 			int currentNumber = numbers[i];
 			int currentLength = 1;
+			int prevNumber = 0;
+			
+			if (i > 0){
+				prevNumber = numbers[i];
+			}
 			
 			for (int j = i+1; j < size; j++) {
+				if (prevNumber == numbers[j]) {
+					continue;
+				}
 				if (currentNumber == numbers[j]) {
 					currentLength++;
 				}
 			}
 
-		
 			if (currentLength > 1) {
 				System.out.println(currentNumber + " is repeated: " + currentLength + " times.");
 			}
