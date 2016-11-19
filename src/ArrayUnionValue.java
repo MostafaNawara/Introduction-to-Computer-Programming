@@ -68,22 +68,22 @@ public class ArrayUnionValue {
 		
 		// int UnionArray & IntersectionArray
 		int [] UnionArray = new int[AllElementsArraySize - IntersectionArraySize];
-		int [] IntersectionArray = new int[IntersectionArraySize];
 		int UnionArrayCurrent= 0;
+		int [] IntersectionArray = new int[IntersectionArraySize];
 		int IntersectionArrayCurrent= 0;
 
-		// Get UnionArray
+/*		// Get UnionArray
 		for (int i = 0; i < AllElementsArraySize; i++) {
 			
 			for (int j = i+1; j < AllElementsArraySize; j++) {
 				if (AllElementsArray[i] != AllElementsArray[j]){
-					UnionArray[UnionArrayCurrent] = AllElementsArray[i];
+					UnionArray[i] = AllElementsArray[i];
 					UnionArrayCurrent++;
 					break;
 				}
 			}
 			
-		}
+		}*/
 
 		// Get IntersectionArray
 		for (int i = 0; i < AllElementsArraySize; i++) {
@@ -93,9 +93,10 @@ public class ArrayUnionValue {
 					IntersectionArrayCurrent++;
 				}
 			}
+			System.out.println(AllElementsArray[i]);
 		}
 		
-		// Print UnionArray
+/*		// Print UnionArray
 		System.out.println("Union (Array1, Array2):");
 		for (int i = 0; i < UnionArray.length; i++) {
 			System.out.print(UnionArray[i]);
@@ -103,7 +104,7 @@ public class ArrayUnionValue {
 			if (i != UnionArray.length-1) {
 				System.out.print(", ");
 			}
-		}
+		}*/
 
 		// Print IntersectionArray
 		System.out.println(" ");
